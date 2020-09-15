@@ -124,3 +124,33 @@ body {
   letter-spacing: 0.03em;
   /* color: rgba(255, 255, 255, 0.6); */
 }
+
+.potfolio-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-colour);
+}
+.potfolio-btn:hover,
+.potfolio-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.portfolio-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-light-theme-colour);
+}
+.potfolio-subtitle {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+  color: var(--description-theme-colour);
+}
